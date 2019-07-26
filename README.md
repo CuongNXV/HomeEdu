@@ -1,1 +1,1 @@
-# HomeEdu
+# Sun* Training Project
