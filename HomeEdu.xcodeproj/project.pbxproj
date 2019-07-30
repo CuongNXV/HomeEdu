@@ -11,6 +11,8 @@
 		9B3DF00022E958940064CA7F /* InformationStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DEFFF22E958940064CA7F /* InformationStudent.swift */; };
 		9B3DF00522E95CA80064CA7F /* InfoStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DF00322E95CA80064CA7F /* InfoStudent.swift */; };
 		9B3DF00622E95CA80064CA7F /* InfoStudent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B3DF00422E95CA80064CA7F /* InfoStudent.xib */; };
+		9BACC2D322EFE91F008761FC /* ScoreOfStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BACC2D222EFE91F008761FC /* ScoreOfStudent.swift */; };
+		9BACC2DC22EFEF95008761FC /* AllScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BACC2DB22EFEF95008761FC /* AllScore.swift */; };
 		9BDF53F622E7FA1F0057933D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF53F522E7FA1F0057933D /* AppDelegate.swift */; };
 		9BDF53F822E7FA1F0057933D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF53F722E7FA1F0057933D /* ViewController.swift */; };
 		9BDF53FB22E7FA1F0057933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF53F922E7FA1F0057933D /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 		9B3DEFFF22E958940064CA7F /* InformationStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationStudent.swift; sourceTree = "<group>"; };
 		9B3DF00322E95CA80064CA7F /* InfoStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStudent.swift; sourceTree = "<group>"; };
 		9B3DF00422E95CA80064CA7F /* InfoStudent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoStudent.xib; sourceTree = "<group>"; };
+		9BACC2D222EFE91F008761FC /* ScoreOfStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreOfStudent.swift; sourceTree = "<group>"; };
+		9BACC2DB22EFEF95008761FC /* AllScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllScore.swift; sourceTree = "<group>"; };
 		9BDF53F222E7FA1F0057933D /* HomeEdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeEdu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDF53F522E7FA1F0057933D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDF53F722E7FA1F0057933D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +114,63 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		9BACC2D422EFEEF5008761FC /* Xemdiem */ = {
+			isa = PBXGroup;
+			children = (
+				9BACC2D222EFE91F008761FC /* ScoreOfStudent.swift */,
+				9BACC2DB22EFEF95008761FC /* AllScore.swift */,
+			);
+			path = Xemdiem;
+			sourceTree = "<group>";
+		};
+		9BACC2D522EFEEFC008761FC /* TKB */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFD1D222EB424B005E4899 /* ScheduleController.swift */,
+			);
+			path = TKB;
+			sourceTree = "<group>";
+		};
+		9BACC2D622EFEF01008761FC /* Taikhoan */ = {
+			isa = PBXGroup;
+			children = (
+				9B3DEFFF22E958940064CA7F /* InformationStudent.swift */,
+			);
+			path = Taikhoan;
+			sourceTree = "<group>";
+		};
+		9BACC2D722EFEF08008761FC /* Lichthi */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFD1D422EB4280005E4899 /* ExamScheduleController.swift */,
+			);
+			path = Lichthi;
+			sourceTree = "<group>";
+		};
+		9BACC2D822EFEF0E008761FC /* About */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFD1C422EAF4D6005E4899 /* AboutApp.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		9BACC2D922EFEF4D008761FC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFD1C222EAD6ED005E4899 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9BACC2DA22EFEF61008761FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF53F722E7FA1F0057933D /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		9BDF53E922E7FA1F0057933D = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +218,10 @@
 		9BFFD1B422EAD07A005E4899 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9BDF540A22E7FF410057933D /* CustomTextfield.swift */,
+				9BDF540822E7FF0E0057933D /* CustomButton.swift */,
+				9BDF540C22E7FF520057933D /* CustomView.swift */,
+				9BFFD1BE22EAD375005E4899 /* UIViewController+.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -164,12 +229,13 @@
 		9BFFD1B522EAD087005E4899 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9BDF53F722E7FA1F0057933D /* ViewController.swift */,
-				9B3DEFFF22E958940064CA7F /* InformationStudent.swift */,
-				9BFFD1C222EAD6ED005E4899 /* TabbarController.swift */,
-				9BFFD1C422EAF4D6005E4899 /* AboutApp.swift */,
-				9BFFD1D222EB424B005E4899 /* ScheduleController.swift */,
-				9BFFD1D422EB4280005E4899 /* ExamScheduleController.swift */,
+				9BACC2DA22EFEF61008761FC /* Login */,
+				9BACC2D922EFEF4D008761FC /* Tabbar */,
+				9BACC2D822EFEF0E008761FC /* About */,
+				9BACC2D722EFEF08008761FC /* Lichthi */,
+				9BACC2D622EFEF01008761FC /* Taikhoan */,
+				9BACC2D522EFEEFC008761FC /* TKB */,
+				9BACC2D422EFEEF5008761FC /* Xemdiem */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -194,10 +260,6 @@
 		9BFFD1B822EAD134005E4899 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9BDF540A22E7FF410057933D /* CustomTextfield.swift */,
-				9BDF540822E7FF0E0057933D /* CustomButton.swift */,
-				9BDF540C22E7FF520057933D /* CustomView.swift */,
-				9BFFD1BE22EAD375005E4899 /* UIViewController+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -368,6 +430,7 @@
 				9B3DEFFE22E94E090064CA7F /* SaveData.swift in Sources */,
 				9BDF53F822E7FA1F0057933D /* ViewController.swift in Sources */,
 				9BDF53F622E7FA1F0057933D /* AppDelegate.swift in Sources */,
+				9BACC2D322EFE91F008761FC /* ScoreOfStudent.swift in Sources */,
 				9BFFD1BF22EAD375005E4899 /* UIViewController+.swift in Sources */,
 				9BFFD1C122EAD470005E4899 /* Storyboards.swift in Sources */,
 				9BFFD1C322EAD6ED005E4899 /* TabbarController.swift in Sources */,
@@ -376,6 +439,7 @@
 				9BDF540922E7FF0E0057933D /* CustomButton.swift in Sources */,
 				9BFFD1D522EB4280005E4899 /* ExamScheduleController.swift in Sources */,
 				9BFFD1D322EB424B005E4899 /* ScheduleController.swift in Sources */,
+				9BACC2DC22EFEF95008761FC /* AllScore.swift in Sources */,
 				9B3DF00522E95CA80064CA7F /* InfoStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

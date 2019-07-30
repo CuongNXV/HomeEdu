@@ -17,7 +17,6 @@ class InformationStudent: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("abc")
         tableView.register(UINib.init(nibName: infoStudentCell, bundle: nil), forCellReuseIdentifier: infoStudentCell)
         tableView.delegate = self
         tableView.dataSource = self
