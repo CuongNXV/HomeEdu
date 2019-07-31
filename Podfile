@@ -6,6 +6,8 @@ target 'HomeEdu' do
   use_frameworks!
 
   # Pods for HomeEdu
-  pod 'Alamofire', '~> 4.0'
-  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Alamofire'
+  pod 'Socket.IO-Client-Swift'
+  pod 'ObjectMapper'
+  pod 'AlamofireObjectMapper'
 end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252825A922F14EAA006C585B /* MessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252825A822F14EAA006C585B /* MessageResponse.swift */; };
+		252825AB22F15320006C585B /* ExamResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252825AA22F15320006C585B /* ExamResponse.swift */; };
+		252825AD22F15411006C585B /* SubjectSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252825AC22F15411006C585B /* SubjectSchedule.swift */; };
+		252825AF22F154D1006C585B /* ExamSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252825AE22F154D1006C585B /* ExamSchedule.swift */; };
+		252825B922F16DB6006C585B /* HomeduSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252825B822F16DB6006C585B /* HomeduSocket.swift */; };
 		9B3DEFFE22E94E090064CA7F /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DEFFD22E94E090064CA7F /* SaveData.swift */; };
 		9B3DF00022E958940064CA7F /* InformationStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DEFFF22E958940064CA7F /* InformationStudent.swift */; };
 		9B3DF00522E95CA80064CA7F /* InfoStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DF00322E95CA80064CA7F /* InfoStudent.swift */; };
@@ -39,6 +44,11 @@
 /* Begin PBXFileReference section */
 		21C09EB688DE4BD2A5F6F96A /* Pods_HomeEdu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeEdu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23660DD014A24CEE41257747 /* Pods-HomeEdu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeEdu.debug.xcconfig"; path = "Target Support Files/Pods-HomeEdu/Pods-HomeEdu.debug.xcconfig"; sourceTree = "<group>"; };
+		252825A822F14EAA006C585B /* MessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageResponse.swift; sourceTree = "<group>"; };
+		252825AA22F15320006C585B /* ExamResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamResponse.swift; sourceTree = "<group>"; };
+		252825AC22F15411006C585B /* SubjectSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectSchedule.swift; sourceTree = "<group>"; };
+		252825AE22F154D1006C585B /* ExamSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamSchedule.swift; sourceTree = "<group>"; };
+		252825B822F16DB6006C585B /* HomeduSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeduSocket.swift; sourceTree = "<group>"; };
 		9B3DEFFD22E94E090064CA7F /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		9B3DEFFF22E958940064CA7F /* InformationStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationStudent.swift; sourceTree = "<group>"; };
 		9B3DF00322E95CA80064CA7F /* InfoStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStudent.swift; sourceTree = "<group>"; };
@@ -89,6 +99,14 @@
 				C1F7D2A7E4E42A2984D68EE4 /* Pods-HomeEdu.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		252825B722F16DA4006C585B /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				252825B822F16DB6006C585B /* HomeduSocket.swift */,
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 		78321B4882331B986FAD9BAC /* Frameworks */ = {
@@ -292,6 +310,10 @@
 			isa = PBXGroup;
 			children = (
 				9B3DEFFD22E94E090064CA7F /* SaveData.swift */,
+				252825A822F14EAA006C585B /* MessageResponse.swift */,
+				252825AA22F15320006C585B /* ExamResponse.swift */,
+				252825AC22F15411006C585B /* SubjectSchedule.swift */,
+				252825AE22F154D1006C585B /* ExamSchedule.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -299,6 +321,7 @@
 		9BFFD1BD22EAD1D6005E4899 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				252825B722F16DA4006C585B /* Socket */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -426,11 +449,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDF540D22E7FF520057933D /* CustomView.swift in Sources */,
+				252825AF22F154D1006C585B /* ExamSchedule.swift in Sources */,
+				252825B922F16DB6006C585B /* HomeduSocket.swift in Sources */,
 				9BDF540B22E7FF410057933D /* CustomTextfield.swift in Sources */,
 				9B3DEFFE22E94E090064CA7F /* SaveData.swift in Sources */,
 				9BDF53F822E7FA1F0057933D /* ViewController.swift in Sources */,
 				9BDF53F622E7FA1F0057933D /* AppDelegate.swift in Sources */,
+				252825AB22F15320006C585B /* ExamResponse.swift in Sources */,
 				9BACC2D322EFE91F008761FC /* ScoreOfStudent.swift in Sources */,
+				252825AD22F15411006C585B /* SubjectSchedule.swift in Sources */,
 				9BFFD1BF22EAD375005E4899 /* UIViewController+.swift in Sources */,
 				9BFFD1C122EAD470005E4899 /* Storyboards.swift in Sources */,
 				9BFFD1C322EAD6ED005E4899 /* TabbarController.swift in Sources */,
@@ -438,6 +465,7 @@
 				9BFFD1C522EAF4D6005E4899 /* AboutApp.swift in Sources */,
 				9BDF540922E7FF0E0057933D /* CustomButton.swift in Sources */,
 				9BFFD1D522EB4280005E4899 /* ExamScheduleController.swift in Sources */,
+				252825A922F14EAA006C585B /* MessageResponse.swift in Sources */,
 				9BFFD1D322EB424B005E4899 /* ScheduleController.swift in Sources */,
 				9BACC2DC22EFEF95008761FC /* AllScore.swift in Sources */,
 				9B3DF00522E95CA80064CA7F /* InfoStudent.swift in Sources */,
